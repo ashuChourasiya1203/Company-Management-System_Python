@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/bin/pip install:*)",
+      "Bash(/usr/local/mysql/bin/mysql -h 127.0.0.1 -P 3306 -u root -proot \"/Users/niravjoshi/Desktop/AI Engineering Notes/Python Projects/CompanyManagementSystem/database/company_management_system.sql\")",
+      "Bash(/usr/local/mysql/bin/mysql -h 127.0.0.1 -P 3306 -u root -pNewStrongPass123! company_management_db -e \"DESCRIBE employees; DESCRIBE payroll;\" 2>/dev/null)",
+      "Bash(/usr/local/mysql/bin/mysql -h 127.0.0.1 -P 3306 -u root -pNewStrongPass123! company_management_db -e \"DESCRIBE managers; DESCRIBE projects;\" 2>/dev/null)",
+      "Bash(/usr/local/mysql/bin/mysql -h 127.0.0.1 -P 3306 -u root -pNewStrongPass123! company_management_db -e \"DESCRIBE attendance; DESCRIBE leave_requests; DESCRIBE performance_reviews;\" 2>/dev/null)",
+      "Bash(/usr/local/mysql/bin/mysql -h 127.0.0.1 -P 3306 -u root -pNewStrongPass123! company_management_db -e \"DESCRIBE employee_projects; DESCRIBE designations;\" 2>/dev/null)"
+    ]
+  }
+}
